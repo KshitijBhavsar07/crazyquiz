@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyTrack Trivia Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="emoji-container"></div>
+    <div class="container">
+        <h1 id="dailytrack">DailyTrack</h1>
+        <div id="quiz-container">
+            <h2 id="welcome-message">Welcome to DailyTrack Trivia Quiz.</h2>
+            <button id="start-button" class="btn">Start Quiz</button>
+            <div id="question-container" class="hide">
+                <div id="question"></div>
+                <div id="answer-buttons"></div>
+                <div id="button-container">
+                    <button id="back-button" class="hide">Back</button>
+                    <button id="next-button" class="hide">Next</button>
+                </div>
+                
+                <div id="score"></div>
+                <div id="emoji" class="hide"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
